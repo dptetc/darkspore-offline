@@ -1,0 +1,1794 @@
+# Darkspore.exe RakNet Addresses
+This is the list of known RakNet functions inside the Darkspore.exe, and those related to it. We are trying to find out how the game works to make the server, and for that, the more we know about the game code, the best.
+
+## Related
+
+### sntransport_message.cpp
+- **OTHERS..?**
+- **sub_A8D1C0:** (this) ?
+- **sub_A8D1E0:** (this) ?
+- **sub_A8D240:** (this) ?
+- **sub_A8D260:** (this) ?
+
+### ?
+- **sub_A8D310:** (this) ?
+- **sub_A8D390:** (this) ?
+- **DNameNode::DNameNode:** (this) ?
+- **sub_A8D3F0:** (this) ?
+- **sub_A8D410:** (this) ?
+- **unknown_libname_21:** (this) ?
+- **sub_A8D470:** (this) ?
+- **sub_A8D4C0:** (this) ?
+- **sub_A8D520:** (cdecl) ?
+- **sub_A8D530:** ?
+- **sub_A8D560:** (this) ?
+- **sub_A8D5D0:** (this) ?
+- **sub_A8D600:** (this) ?
+- **sub_A8D620:** (this) ?
+- **sub_A8D640:** (stdcall) ?
+- **sub_A8D660:** (stdcall) ?
+- **sub_A8D680:** (stdcall) ?
+- **sub_A8D6A0:** (stdcall) ?
+- **sub_A8D6C0:** (stdcall) ?
+- **sub_A8D6E0:** (stdcall) ?
+- **sub_A8D790:** (this) ?
+- **sub_A8D860:** (stdcall) ?
+- **sub_A8D8C0:** (stdcall) ?
+- **sub_A8D940:** (stdcall) ?
+- **sub_A8D970:** (stdcall) ?
+- **sub_A8D9E0:** (stdcall) ?
+- **sub_A8DA10:** (stdcall) ?
+- **sub_A8DAE0:** (this) ?
+- **sub_A8DB10:** (this) ?
+- **sub_A8DB40:** (this) ?
+- **sub_A8DB60:** (this) ?
+- **sub_A8DB90:** (this) ?
+- **sub_A8DC40:** (this) ?
+- **sub_A8DCC0:** (this) ?
+- **sub_A8DCF0:** (this) ?
+- **sub_A8DD70:** (this) ?
+- **sub_A8DD90:** (this) ?
+- **sub_A8DDB0:** (cdecl) ?
+- **sub_A8DDD0:** (this) ?
+- **sub_A8DE00:** (this) ?
+- **sub_A8DE20:** (this) ?
+
+### sntransport_socket_factory_win32.cpp
+- **sub_A8DED0:** (this) ?
+
+### ?
+- **sub_A8DF80:** (this) ?
+- **DNameNode::DNameNode:** (this) ?
+- **sub_A8E010:** (this) ?
+- **sub_A8E040:** (this) ?
+- **sub_A8E060:** (this) ?
+- **Concurrency::details::SchedulingRing::SetOwningNode:** (this) ?
+- **unknown_libname_24:** (this) ?
+- **sub_A8E100:** (this) ?
+- **sub_A8E130:** (this) ?
+- **sub_A8E160:** (this) ?
+- **sub_A8E1B0:** (this) ?
+- **sub_A8E1E0:** (this) ?
+- **sub_A8E200:** (this) ?
+- **sub_A8E230:** (this) ?
+- **sub_A8E260:** (this) ?
+- **Concurrency::details::HardwareAffinity::GetGroup:** (this) ?
+- **sub_A8E2A0:** (this) ?
+- **sub_A8E2D0:** (this) ?
+- **sub_A8E3F0:** (this) ?
+- **unknown_libname_25:** (this) ?
+- **sub_A8E4B0:** (this) ?
+- **unknown_libname_26:** (stdcall) ?
+- **sub_A8E510:** (this) ?
+- **ios::delbuf:** (this) ?
+
+### sntransport_transport.cpp
+- **sub_A8E550:** (this) ?
+- **sub_A8E620:** (this) ?
+- **sub_A8E6D0:** (this) ?
+
+### ?
+- **sub_A8E760:** (this) ?
+- **sub_A8E790:** (this) ?
+- **sub_A8E7E0:** (this) ?
+- **sub_A8E850:** (this) ?
+- **sub_A8E870:** (this) ?
+- **sub_A8E890:** (this) ?
+- **Concurrency::details::FreeThreadProxy::FreeThreadProxy:** (this) ?
+- **sub_A8E9E0:** (this) ?
+
+### sntransport_transport_raknet.cpp
+- **sub_A8EA40:** (this) ? (USES sub_A97600)
+- **sub_A8EC80:** (this) ?
+- **sub_A8EE20:** (this) ?
+- **sub_A8EE40:** (this) ? (USES ~~sub_A96E10~~)
+- **sub_A8F030:** (this) ?
+- **sub_A8F0C0:** (this) ?
+- **sub_A8F210:** (this) ? (USES sub_A97620)
+- **sub_A8F3A0:** (this) ?
+- **sub_A8F450:** (this) ?
+- **sub_A8F660:** (this) ?
+- **sub_A8F870:** (this) ?
+- **sub_A8F890:** (this) ? (USES ~~sub_A96CA0~~, sub_A97CF0, ~~sub_A97EB0~~, ~~sub_A97E50~~)
+- **sub_A8FB20:** (this) ?
+- **sub_A8FB90:** (this) ?
+- **sub_A8FC00:** (this) ?
+- **sub_A8FC20:** (this) ?
+- **sub_A8FC40:** (this) ? (USES sub_A96DA0, sub_A97CF0, ~~sub_A97EB0~~, ~~sub_A97E50~~)
+- **sub_A8FEB0:** (this) ?
+- **sub_A8FFC0:** (this) ? (USES sub_A96DA0)
+- **sub_A90170:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A901B0:** (this) ?
+- **sub_A903A0:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A90560:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A90760:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A90920:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A90AE0:** (fastcall) ? (USES sub_A9A620, ~~sub_A99EB0~~)
+- **sub_A910B0:** (cdecl) ?
+- **sub_A91110:** (cdecl) ?
+
+### ?
+- **sub_A91180:** (this) ?
+- **sub_A911B0:** (this) ?
+- **sub_A911E0:** (this) ? (USES sub_A96DA0)
+- **sub_A91260:** (this) ?
+- **sub_A91340:** (this) ?
+- **sub_A91360:** (this) ?
+- **sub_A913A0:** (this) ?
+- **sub_A91410:** (this) RakNet::BitStream::WriteByte1
+- **sub_A914E0:** (this) ?
+- **sub_A91600:** ?
+- **sub_A91610:** (this) ?
+- **sub_A91660:** (this) ?
+- **sub_A91690:** (this) ?
+- **sub_A916C0:** (this) ?
+- **sub_A91700:** (this) ?
+
+### sntransport_socket_win32.cpp
+- **sub_A91760:** (this) ?
+- **sub_A91840:** (this) ?
+- **sub_A918F0:** (this) ?
+- **sub_A91950:** (this) ?
+- **sub_A919B0:** (this) ?
+- **sub_A91BA0:** (this) ?
+- **sub_A91C00:** (this) ?
+- **sub_A91CE0:** (this) ?
+- **sub_A91EE0:** (this) ?
+- **sub_A91F10:** (this) ?
+- **sub_A921C0:** (this) ?
+- **sub_A92250:** (this) ?
+- **sub_A922E0:** (this) ?
+- **sub_A92380:** (this) ?
+
+### ?
+- **sub_A92440:** (this) ?
+- **sub_A92470:** (this) ?
+- **sub_A92490:** (this) ?
+- **sub_A924B0:** (this) ?
+- **sub_A924E0:** (this) ?
+- **sub_A92520:** (this) ?
+- **sub_A92540:** (this) ? (USES ~~sub_A96CA0~~)
+- **sub_A925D0:** (this) ?
+- **sub_A92610:** (this) ?
+- **sub_A92660:** (this) ? (USES sub_A96B80)
+- **sub_A92680:** (this) ? (USES sub_A96BC0)
+- **sub_A926A0:** (this) ? (USES sub_A96C50)
+- **sub_A926C0:** (this) ? (USES sub_A96C00)
+- **sub_A926E0:** (this) ?
+- **std::_Iterator_base12::_Getpnext:** (this) ?
+- **sub_A92750:** (this) ?
+- **sub_A92780:** (this) ?
+- **sub_A927C0:** (this) ?
+- **sub_A92800:** (this) ?
+- **sub_A92840:** (cdecl) ?
+- **Concurrency::details::_NonReentrantPPLLock::_Acquire:** (this) ?
+- **sub_A928A0:** (fastcall) ?
+- **sub_A92900:** (this) ?
+- **sub_A92920:** (this) ?
+- **sub_A92940:** (this) ?
+- **sub_A92960:** (this) ?
+- **sub_A92980:** (this) ?
+- **sub_A929B0:** (this) ?
+- **sub_A929D0:** (this) ?
+- **sub_A929F0:** (this) ?
+- **sub_A92A20:** (this) ?
+- **sub_A92A40:** (this) ?
+- **sub_A92A70:** (this) ?
+- **sub_A92A90:** (this) ?
+- **sub_A92AB0:** (this) ?
+- **sub_A92AD0:** (this) ?
+- **sub_A92AF0:** (this) ?
+- **std::locale::facet::facet:** (this) ?
+- **sub_A92B90:** (this) ?
+- **sub_A92BA0:** (this) ?
+- **sub_A92BB0:** (this) ?
+- **sub_A92BC0:** (this) ?
+- **sub_A92BE0:** (this) ?
+- **sub_A92C00:** (this) ?
+- **sub_A92C30:** (this) ?
+- **sub_A92C70:** (this) ?
+- **sub_A92DA0:** (this) ?
+- **unknown_libname_29:** (this) ?
+- **sub_A92E40:** (this) ?
+
+### snclient_session.cpp
+- **sub_A92EF0:** (this) ?
+- **ios::fill:** (this) ?
+- **sub_A93630:** (this) ?
+- **sub_A936D0:** (this) ?
+- **sub_A93AE0:** (this) ?
+- **Concurrency::details::ContextBase::SetExecutingCollection:** (this) ?
+- **sub_A93B20:** (this) ?
+- **sub_A93B50:** (this) ?
+- **sub_A93D50:** (this) ?
+- **sub_A93F50:** (this) ?
+- **sub_A94040:** (this) ?
+- **sub_A94130:** (this) ?
+
+### ?
+- **sub_A94260:** (this) ?
+- **unknown_libname_31:** ?
+- **sub_A942D0:** (cdecl) ?
+- **sub_A94320:** (this) ?
+- **sub_A943E0:** (this) ?
+- **sub_A944A0:** (stdcall) ?
+- **sub_A94570:** (this) ?
+- **sub_A94700:** (this) ?
+- **sub_A94890:** (this) ?
+- **sub_A94A20:** (this) ?
+- **sub_A94A50:** (this) ?
+- **sub_A94B10:** (this) ?
+- **sub_A94BC0:** (this) ?
+- **sub_A94C00:** (this) ?
+- **sub_A94C40:** (this) ?
+- **sub_A94D70:** (this) ?
+- **sub_A94E10:** ?
+- **sub_A94EB0:** ?
+
+### snprotocol_transport.cpp
+- **sub_A94F00:** (this) ?
+- **sub_A95040:** (this) ?
+- **sub_A95210:** (this) ?
+- **sub_A95290:** (this) ?
+
+### ?
+- **sub_A95310:** (this) ?
+- **sub_A95380:** (this) ?
+- **sub_A953D0:** (this) ?
+- **sub_A95560:** (this) ?
+- **sub_A95600:** (this) ?
+- **sub_A956A0:** (this) ?
+- **sub_A95750:** (this) ?
+- **sub_A95800:** (this) ?
+- **sub_A95860:** (this) ?
+- **sub_A958A0:** (this) ?
+- **sub_A95910:** (stdcall) ?
+- **unknown_libname_32:** (stdcall) ?
+- **sub_A959A0:** (this) ?
+- **sub_A959E0:** (this) ?
+- **sub_A95A50:** (this) ?
+- **sub_A95A90:** (stdcall) ?
+- **sub_A95AE0:** (this) ?
+- **sub_A95B00:** (this) ?
+- **sub_A95B70:** (this) ?
+- **sub_A95CE0:** (this) ?
+- **sub_A95E50:** (this) ?
+- **sub_A95FC0:** (this) ?
+- **sub_A960E0:** (this) ?
+- **sub_A96220:** (this) ?
+- **sub_A962C0:** (this) ?
+- **sub_A962F0:** (this) ?
+- **sub_A96430:** (this) ?
+- **sub_A964D0:** (this) ?
+- **sub_A96610:** (this) ?
+- **sub_A966B0:** (this) ?
+- **sub_A96740:** (this) ?
+- **sub_A967A0:** (this) ?
+- **sub_A96800:** ?
+- **sub_A96960:** (cdecl) ?
+- **sub_A969C0:** (cdecl) ?
+- **sub_A96A00:** ?
+- **sub_A96A10:** ?
+- **sub_A96A20:** ?
+
+## RakNet Source
+- **sub_A96AB0:** (cdecl) RakNet::NonNumericHostString
+- **sub_A96B00:** (this) ?
+- **sub_A96B30:** (this) ?
+- **sub_A96B80:** (this) ?
+- **sub_A96BC0:** (this) ?
+- **sub_A96C00:** (this) ?
+- **sub_A96C50:** (this) ?
+- **sub_A96CA0:** (this) RakNet::SystemAddress::ToString
+- **sub_A96D00:** (this) RakNet::SystemAddress::ToString_Old
+- **sub_A96DA0:** (this) ?
+- **sub_A96E10:** (this) RakNet::SystemAddress::SystemAddress::constructor (?)
+- **sub_A96E40:** (this) RakNet::SystemAddress::SetBinaryAddress
+- **sub_A96FD0:** (this) ?
+- **sub_A97010:** (this) ?
+- **sub_A970B0:** (this) ?
+- **sub_A97150:** (this) ?
+- **sub_A97220:** (this) ?
+- **sub_A972F0:** ?
+- **sub_A97310:** (this) RakNet::RakNetGUID::operator_Equal
+- **sub_A97360:** (this) RakNet::RakNetGUID::operator_Different
+- **sub_A973B0:** (this) RakNet::RakNetGUID::operator_More
+- **sub_A97400:** (this) RakNet::RakNetGUID::operator_Less
+- **sub_A974A0:** (this) RakNet::RakNetGUID::ToString
+- **sub_A97520:** (this) RakNet::Packet::SetSystemAddress
+- **sub_A97560:** (this) RakNet::Packet::SetGuid
+- **sub_A97590:** (this) ?
+- **sub_A975C0:** (this) ?
+- **sub_A97600:** ?
+- **sub_A97620:** (cdecl) ?
+- **sub_A97900:** ?
+- **sub_A97940:** ?
+- **sub_A97980:** ?
+- **sub_A979C0:** ?
+- **sub_A97A00:** ?
+- **sub_A97A40:** ?
+- **sub_A97A80:** ?
+- **sub_A97AC0:** ?
+- **sub_A97B00:** ?
+- **unknown_libname_37:** (cdecl) RakNet::OP_DELETE($0)
+- **sub_A97B80:** ?
+- **sub_A97BC0:** ?
+- **sub_A97C00:** ?
+- **sub_A97C40:** ?
+- **sub_A97C80:** (this) ?
+- **Concurrency::details::UMSThreadProxy::~UMSThreadProxy:** (this) ?
+- **sub_A97CF0:** (stdcall) ?
+- **sub_A97D70:** (stdcall) ?
+- **sub_A97E50:** (this) RakNet::BitStream::destructor
+- **sub_A97E90:** (this) RakNet::BitStream::Reset
+- **sub_A97EB0:** (this) RakNet::BitStream::Write
+- **sub_A97F30:** (this) RakNet::BitStream::Write
+- **sub_A97F60:** (this) RakNet::BitStream::Write
+- **unknown_libname_39:** (this) ?
+- **sub_A982A0:** (this) RakNet::BitStream::Write0
+- **sub_A982E0:** (this) RakNet::BitStream::Write1
+- **sub_A98360:** (this) RakNet::BitStream::ReadBit
+- **sub_A983B0:** (this) RakNet::BitStream::WriteAlignedBytes
+- **sub_A98470:** (this) RakNet::BitStream::Read
+- **sub_A98510:** (this) ?
+- **sub_A985A0:** (this) ?
+- **sub_A98640:** (this) RakNet::BitStream::WriteBits
+- **sub_A987C0:** (this) ?
+- **sub_A988E0:** (this) ?
+- **sub_A98A90:** (this) ?
+- **sub_A98BC0:** (this) RakNet::BitStream::AddBitsAndReallocate
+- **sub_A98D00:** (this) RakNet::BitStream::PadWithZeroToByteLength
+- **sub_A98DA0:** (cdecl) RakNet::BitStream::NumberOfLeadingZeroes
+- **sub_A98E40:** (cdecl) RakNet::BitStream::NumberOfLeadingZeroes
+- **sub_A98F00:** (cdecl) RakNet::BitStream::NumberOfLeadingZeroes
+- **sub_A98FD0:** (cdecl) RakNet::BitStream::NumberOfLeadingZeroes
+- **sub_A99110:** (this) RakNet::BitStream::PrintBits
+- **sub_A99280:** (this) RakNet::BitStream::PrintHex
+- **sub_A99320:** (this) RakNet::BitStream::CopyData
+- **sub_A99380:** (this) RakNet::BitStream::IgnoreBits
+- **sub_A993A0:** (this) RakNet::BitStream::IgnoreBytes
+- **sub_A993C0:** (this) ?
+- **sub_A99460:** RakNet::BitStream::IsNetworkOrderInternal
+- **sub_A994A0:** (cdecl) RakNet::BitStream::ReverseBytes
+- **sub_A994E0:** (cdecl) RakNet::BitStream::ReverseBytesInPlace
+- **sub_A99580:** (this) RakNet::BitStream::WriteAlignedVar8
+- **sub_A995C0:** (this) RakNet::BitStream::ReadAlignedVar8
+- **sub_A99610:** (this) RakNet::BitStream::WriteAlignedVar16
+- **sub_A996A0:** (this) RakNet::BitStream::ReadAlignedVar16
+- **sub_A99740:** (this) RakNet::BitStream::WriteAlignedVar32
+- **sub_A99830:** (this) RakNet::BitStream::ReadAlignedVar32
+- **sub_A99940:** (this) RakNet::BitStream::ReadFloat16
+- **sub_A99A20:** (this) RakNet::BitStream::WriteFloat16
+- **unknown_libname_43:** (this) $0(RakNet::BitStream)::GetNumberOfBitsUsed
+- **streambuf::unbuffered:** (this) ?
+- **sub_A99B00:** (this) ?
+- **sub_A99B20:** (this) RakNet::BitStream::AlignWriteToByteBoundary
+- **sub_A99B50:** RakNet::BitStream::DoEndianSwap
+- **sub_A99B70:** RakNet::BitStream::IsNetworkOrder
+- **sub_A99BA0:** (this) RakNet::BitStream::AlignReadToByteBoundary
+- **sub_A99BD0:** (this) ?
+- **sub_A99C40:** (this) RakNet::BitStream::GetNumberOfBytesUsed
+- **sub_A99C60:** (this) RakNet::BitStream::Write
+- **sub_A99C80:** (this) RakNet::BitStream::Write
+- **sub_A99CA0:** (this) RakNet::BitStream::Write
+- **sub_A99CD0:** (this) RakNet::BitStream::Read
+- **sub_A99D50:** (this) ?
+- **sub_A99DC0:** (this) ?
+- **sub_A99E40:** (this) ?
+- **sub_A99EB0:** (cdecl) RakNet::StatisticsToString
+- **unknown_libname_44:** (cdecl) RakNet::GetTimeUS
+- **sub_A9A620:** (fastcall) ?
+- **sub_A9A640:** RakNet::TimeUS::GetTimeUS_Windows
+- **unknown_libname_45:** (fastcall) ?
+- **sub_A9A730:** (cdecl) ?
+- **sub_A9A860:** (cdecl) ?
+- **sub_A9A900:** (cdecl) ?
+- **sub_A9A950:** (cdecl) ?
+- **sub_A9A9E0:** ?
+- **sub_A9A9F0:** (cdecl) ?
+- **sub_A9ABA0:** (cdecl) ?
+- **sub_A9AE30:** (cdecl) ?
+- **sub_A9AF90:** ?
+- **sub_A9AFD0:** (cdecl) ?
+- **sub_A9B080:** (cdecl) ?
+- **sub_A9B160:** (cdecl) ?
+- **sub_A9B1A0:** (cdecl) ?
+- **sub_A9B430:** (cdecl) ?
+- **sub_A9B5C0:** (cdecl) ?
+- **sub_A9B5E0:** (cdecl) ?
+- **sub_A9B630:** (cdecl) ?
+- **sub_A9B6C0:** (this) ?
+- **Concurrency::details::CollectionTypes::Count::Increment:** (this) ?
+- **sub_A9B720:** (this) ?
+- **sub_A9B770:** (this) ?
+- **sub_A9B790:** (cdecl) ?
+- **sub_A9B7D0:** (cdecl) ?
+- **sub_A9B810:** (this) ?
+- **sub_A9B840:** (this) ?
+- **sub_A9B870:** (this) RakNet::RakPeer::AllocPacket
+- **sub_A9B940:** (this) ?
+- **sub_A9BA00:** (this) ?
+- **sub_A9BE50:** (fastcall) ?
+- **sub_A9BFF0:** (this) ?
+- **sub_A9C860:** (this) ?
+- **sub_A9C940:** (this) ?
+- **sub_A9C970:** (this) ?
+- **sub_A9C9D0:** (this) ?
+- **sub_A9CB00:** (this) ?
+- **sub_A9CBA0:** (this) ?
+- **sub_A9CBC0:** (this) ?
+- **sub_A9CBE0:** (this) ?
+- **sub_A9CC50:** (this) ?
+- **sub_A9CCB0:** (this) ?
+- **sub_A9CD20:** (this) ?
+- **sub_A9CDE0:** (this) ?
+- **sub_A9CED0:** (fastcall) ?
+- **sub_A9D450:** (this) ?
+- **sub_A9D5B0:** (this) ?
+- **sub_A9D5F0:** (this) ?
+- **sub_A9D660:** (this) RakNet::RakPeer::Send
+- **sub_A9D830:** (this) RakNet::RakPeer::SendLoopback
+- **sub_A9D8C0:** (this) RakNet::RakPeer::Send
+- **sub_A9DAA0:** (this) ?
+- **sub_A9DB70:** (this) ?
+- **sub_A9DC10:** (this) ?
+- **sub_A9E130:** (this) ?
+- **sub_A9E1C0:** (this) ?
+- **sub_A9E1E0:** (this) ?
+- **sub_A9E220:** (this) ?
+- **sub_A9E260:** (this) ?
+- **sub_A9E2A0:** (this) ?
+- **sub_A9E2F0:** (this) ?
+- **sub_A9E310:** (this) ?
+- **sub_A9EB20:** (this) ?
+- **sub_A9EC10:** (this) ?
+- **sub_A9ED90:** (this) ?
+- **sub_A9EE50:** (this) ?
+- **sub_A9EFA0:** (this) ?
+- **sub_A9F340:** (this) ?
+- **sub_A9F360:** (this) ?
+- **sub_A9F400:** (this) ?
+- **sub_A9F4C0:** (this) ?
+- **sub_A9F5B0:** (fastcall) ?
+- **sub_A9F780:** (this) ?
+- **sub_A9F8E0:** (this) ?
+- **sub_A9F9A0:** (this) ?
+- **sub_A9F9C0:** (this) ?
+- **sub_A9FC50:** (this) ?
+- **sub_A9FC80:** (this) ?
+- **sub_A9FE70:** (this) ?
+- **sub_A9FF10:** (this) ?
+- **sub_A9FF80:** (this) ?
+- **sub_A9FFD0:** (this) ?
+- **sub_A9FFF0:** (this) ?
+- **sub_AA0050:** (this) ?
+- **sub_AA00A0:** (this) ?
+- **sub_AA0140:** (this) ?
+- **sub_AA0290:** (this) ?
+- **sub_AA0390:** (this) ?
+- **sub_AA0480:** (this) ?
+- **sub_AA0600:** (this) ?
+- **sub_AA06F0:** (this) ?
+- **sub_AA0760:** (this) ?
+- **sub_AA07C0:** (this) ?
+- **sub_AA0800:** (this) ?
+- **sub_AA0870:** (this) RakNet::RakPeer::IsLocalIP
+- **sub_AA0920:** (this) ?
+- **sub_AA0940:** (this) ?
+- **sub_AA09E0:** (this) ?
+- **sub_AA0A50:** (this) ?
+- **sub_AA0A70:** (this) ?
+- **sub_AA0AF0:** (this) ?
+- **sub_AA0B50:** (this) ?
+- **sub_AA0B70:** (this) ?
+- **sub_AA0BD0:** (this) ?
+- **sub_AA0C70:** (this) ?
+- **sub_AA0D10:** (this) ?
+- **sub_AA0D70:** (this) ?
+- **sub_AA0DD0:** (this) ?
+- **sub_AA0E30:** (this) ?
+- **sub_AA0ED0:** (this) ?
+- **sub_AA0FB0:** (this) ?
+- **sub_AA0FD0:** (this) ?
+- **sub_AA1000:** (this) ?
+- **sub_AA1070:** (this) ?
+- **sub_AA10A0:** (this) ?
+- **sub_AA1210:** (this) ?
+- **sub_AA1350:** (stdcall) ?
+- **sub_AA1360:** (this) ?
+- **sub_AA1390:** (this) ?
+- **sub_AA1530:** (this) ?
+- **sub_AA1590:** (this) ?
+- **sub_AA15C0:** (this) ?
+- **sub_AA18F0:** (this) ?
+- **sub_AA1A30:** (this) ?
+- **sub_AA1A90:** (this) ?
+- **sub_AA1AD0:** (this) ?
+- **sub_AA1C40:** (this) ?
+- **sub_AA1D90:** (this) ?
+- **sub_AA1F40:** (this) ?
+- **unknown_libname_47:** (this) ?
+- **sub_AA2140:** (this) ?
+- **sub_AA21B0:** (this) ?
+- **sub_AA22F0:** (this) ?
+- **sub_AA23A0:** (this) ?
+- **sub_AA26B0:** (this) ?
+- **sub_AA2710:** (this) ?
+- **sub_AA2850:** (this) ?
+- **sub_AA2950:** (this) ?
+- **sub_AA2A10:** (fastcall) ?
+- **sub_AA3170:** (this) ?
+- **sub_AA3210:** (this) ?
+- **sub_AA32E0:** (this) ?
+- **sub_AA3330:** (this) ?
+- **sub_AA34A0:** (this) ?
+- **sub_AA3570:** (this) ?
+- **sub_AA35F0:** (this) ?
+- **sub_AA3630:** (this) ?
+- **sub_AA3680:** (this) ?
+- **sub_AA3E80:** (fastcall) ?
+- **sub_AA3F10:** (this) RakNet::RakPeer::IsLoopbackAddress
+- **sub_AA4040:** (this) RakNet::RakPeer::GetLoopbackAddress
+- **sub_AA4070:** (this) ?
+- **sub_AA4100:** (this) ?
+- **sub_AA42E0:** (this) ?
+- **sub_AA46E0:** (this) ?
+- **sub_AA4710:** (this) ?
+- **sub_AA4830:** (this) ?
+- **sub_AA4A40:** (this) ?
+- **sub_AA4B10:** (this) ?
+- **sub_AA4C40:** (this) ?
+- **sub_AA4E30:** (this) ?
+- **sub_AA5310:** (this) ?
+- **sub_AA5350:** (fastcall) ?
+- **sub_AA5540:** (this) ?
+- **sub_AA55C0:** (this) ?
+- **sub_AA5620:** (this) ?
+- **sub_AA5650:** (this) ?
+- **sub_AA5710:** (this) ?
+- **sub_AA57E0:** (cdecl) ?
+- **sub_AA7500:** (cdecl) ?
+- **sub_AA7740:** (this) ?
+- **sub_AA7770:** (this) ?
+- **sub_AA77E0:** (this) ?
+- **sub_AA7840:** (this) ?
+- **sub_AA9CC0:** (stdcall) ?
+- **sub_AA9DD0:** (stdcall) ?
+- **sub_AA9E70:** (this) ?
+- **sub_AA9EA0:** (this) ?
+- **sub_AA9EC0:** (fastcall) ?
+- **sub_AA9EF0:** (this) ?
+- **sub_AA9F10:** (this) ?
+- **sub_AA9F40:** (this) ?
+- **sub_AA9F60:** (this) ?
+- **sub_AA9FA0:** (this) ?
+- **sub_AA9FE0:** (this) ?
+- **sub_AAA020:** (this) ?
+- **unknown_libname_48:** (fastcall) ?
+- **sub_AAA070:** (this) ?
+- **sub_AAA090:** (this) RakNet::AddressOrGUID::IsUndefined
+- **sub_AAA0E0:** (this) ?
+- **sub_AAA130:** (this) ?
+- **sub_AAA160:** (this) ?
+- **sub_AAA250:** ?
+- **unknown_libname_49:** (stdcall) ?
+- **sub_AAA280:** (this) ?
+- **sub_AAA310:** (this) ?
+- **sub_AAA350:** (this) ?
+- **sub_AAA370:** (this) ?
+- **sub_AAA3A0:** (this) ?
+- **sub_AAA3F0:** (this) ?
+- **sub_AAA430:** ?
+- **unknown_libname_50:** (this) ?
+- **sub_AAA470:** (this) ?
+- **sub_AAA4B0:** (this) ?
+- **sub_AAA4D0:** (this) ?
+- **unknown_libname_51:** (this) ?
+- **sub_AAA550:** (this) ?
+- **sub_AAA5E0:** (this) ?
+- **sub_AAA600:** (this) ?
+- **sub_AAA620:** (this) ?
+- **sub_AAA640:** (this) ?
+- **sub_AAA660:** (this) ?
+- **sub_AAA6B0:** (this) ?
+- **sub_AAA6E0:** (this) ?
+- **sub_AAA790:** (this) ?
+- **sub_AAA810:** (this) ?
+- **sub_AAA830:** (this) ?
+- **sub_AAAA00:** (this) ?
+- **sub_AAAA30:** (this) ?
+- **sub_AAAA60:** (this) ?
+- **sub_AAAAB0:** (this) ?
+- **sub_AAAAE0:** (this) ?
+- **sub_AAAC40:** (this) ?
+- **sub_AAAC60:** (this) ?
+- **sub_AAAC90:** (this) ?
+- **unknown_libname_52:** (stdcall) ?
+- **sub_AAACF0:** (this) ?
+- **sub_AAAD60:** (this) ?
+- **sub_AAADB0:** (this) ?
+- **sub_AAAE70:** (this) ?
+- **sub_AAAE90:** (this) ?
+- **sub_AAAEC0:** (this) ?
+- **sub_AAAF00:** (this) ?
+- **sub_AAAF70:** (this) ?
+- **sub_AAAFB0:** (this) ?
+- **sub_AAB070:** (this) ?
+- **sub_AAB0A0:** (this) ?
+- **sub_AAB170:** (this) ?
+- **sub_AAB1A0:** (this) ?
+- **sub_AAB200:** (this) ?
+- **sub_AAB220:** (this) ?
+- **sub_AAB250:** (this) ?
+- **sub_AAB290:** (this) ?
+- **sub_AAB2F0:** (this) ?
+- **sub_AAB360:** (this) ?
+- **sub_AAB3B0:** (this) ?
+- **sub_AAB470:** (this) ?
+- **sub_AAB4A0:** (this) ?
+- **sub_AAB590:** (this) ?
+- **sub_AAB600:** (this) ?
+- **sub_AAB660:** (this) ?
+- **sub_AAB680:** (this) ?
+- **sub_AAB800:** (this) ?
+- **sub_AAB9D0:** (this) ?
+- **sub_AABA00:** ?
+- **sub_AABAF0:** ?
+- **sub_AABB30:** (cdecl) ?
+- **sub_AABBC0:** (cdecl) ?
+- **sub_AABC00:** (this) RakNet::BitStream::WriteByte1
+- **sub_AABC20:** (this) ?
+- **sub_AABC90:** (cdecl) ?
+- **sub_AABCD0:** (this) ?
+- **sub_AABD00:** (this) ?
+- **sub_AABD30:** ?
+- **sub_AABD50:** ?
+- **sub_AABD90:** (cdecl) ?
+- **sub_AABDD0:** (this) ?
+- **sub_AABE50:** ?
+- **sub_AABE90:** ?
+- **unknown_libname_53:** (this) ?
+- **sub_AABEF0:** (this) ?
+- **sub_AABF20:** (this) ?
+- **sub_AABF50:** (this) ?
+- **sub_AABF80:** (this) ?
+- **sub_AABFA0:** (this) ?
+- **unknown_libname_54:** (cdecl) ?
+- **sub_AABFF0:** (this) ?
+- **sub_AAC060:** (this) ?
+- **sub_AAC0D0:** (this) ?
+- **sub_AAC100:** (this) ?
+- **sub_AAC130:** (this) ?
+- **sub_AAC160:** (this) ?
+- **sub_AAC180:** (this) ?
+- **sub_AAC1C0:** (this) ?
+- **sub_AAC1E0:** (this) ?
+- **unknown_libname_55:** (cdecl) RakNet::OP_DELETE($0)
+- **sub_AAC270:** (this) ?
+- **sub_AAC3F0:** (this) ?
+- **sub_AAC5C0:** (this) ?
+- **sub_AAC710:** (this) ?
+- **sub_AAC890:** (this) ?
+- **sub_AACA70:** (this) ?
+- **sub_AACB60:** ?
+- **sub_AACBA0:** ?
+- **unknown_libname_56:** (stdcall) ?
+- **sub_AACC40:** (this) ?
+- **sub_AACDC0:** (this) ?
+- **sub_AACF90:** (this) ?
+- **sub_AACFF0:** (cdecl) ?
+- **sub_AAD030:** (cdecl) ?
+- **sub_AAD0B0:** (this) ?
+- **sub_AAD0D0:** (this) ?
+- **sub_AAD1D0:** (this) ?
+- **sub_AAD2C0:** (this) ?
+- **sub_AAD3B0:** (this) ?
+- **sub_AAD420:** (this) ?
+- **sub_AAD490:** (this) ?
+- **sub_AAD4B0:** (this) ?
+- **sub_AAD5B0:** (cdecl) ?
+- **sub_AAD5F0:** (this) ?
+- **sub_AAD610:** (this) ?
+- **sub_AAD710:** (this) ?
+- **sub_AAD730:** (this) ?
+- **sub_AAD830:** (cdecl) ?
+- **sub_AAD8A0:** (cdecl) ?
+- **sub_AAD910:** (this) ?
+- **sub_AAD950:** (this) ?
+- **sub_AADA70:** (this) ?
+- **sub_AADB40:** (this) ?
+- **sub_AAE780:** (this) ?
+- **sub_AAE820:** (this) ?
+- **sub_AAE900:** (this) ?
+- **sub_AAE930:** (this) $0(RakNet::freeList)[i]
+- **sub_AAE950:** (this) ?
+- **sub_AAEAE0:** (cdecl) ?
+- **sub_AAEB60:** (cdecl) ?
+- **sub_AAEBB0:** (cdecl) ?
+- **sub_AAEBF0:** (this) ?
+- **sub_AAEC70:** (this) ?
+- **sub_AAECD0:** (this) ?
+- **sub_AAEDD0:** (this) ?
+- **sub_AAF3B0:** (this) ?
+- **sub_AAFE30:** (this) ?
+- **sub_AAFEE0:** (this) ?
+- **sub_AB0C40:** (this) ?
+- **sub_AB0C80:** (this) ?
+- **sub_AB0CB0:** (this) ?
+- **sub_AB0F90:** (this) ?
+- **sub_AB0FE0:** (this) ?
+- **sub_AB12D0:** (this) ?
+- **sub_AB1350:** (stdcall) ?
+- **unknown_libname_60:** (this) ?
+- **sub_AB13C0:** (stdcall) ?
+- **sub_AB13D0:** (stdcall) ?
+- **sub_AB13E0:** (this) ?
+- **sub_AB1410:** (this) ?
+- **sub_AB1440:** (this) ?
+- **sub_AB1460:** (this) ?
+- **sub_AB1490:** (this) ?
+- **sub_AB1510:** (this) ?
+- **sub_AB1540:** (this) ?
+- **sub_AB1570:** (this) ?
+- **sub_AB1640:** (this) ?
+- **sub_AB16C0:** (this) ?
+- **sub_AB16F0:** (this) ?
+- **sub_AB1830:** (this) ?
+- **unknown_libname_61:** (stdcall) ?
+- **sub_AB18A0:** (this) ?
+- **sub_AB18D0:** (this) ?
+- **sub_AB1900:** (this) ?
+- **sub_AB1980:** (this) ?
+- **sub_AB19D0:** (this) ?
+- **sub_AB1A00:** ?
+- **sub_AB1A40:** (cdecl) ?
+- **sub_AB1A80:** (cdecl) ?
+- **sub_AB1AC0:** (cdecl) ?
+- **sub_AB1B00:** (this) ?
+- **sub_AB1B80:** ?
+- **sub_AB1BC0:** ?
+- **sub_AB1C00:** (this) ?
+- **sub_AB1C40:** (this) ?
+- **sub_AB1C70:** (this) ?
+- **sub_AB1CA0:** (this) ?
+- **unknown_libname_63:** (this) ?
+- **sub_AB1CF0:** (this) ?
+- **sub_AB1D20:** (this) ?
+- **sub_AB1D40:** (this) ?
+- **sub_AB1EC0:** (this) ?
+- **sub_AB1EF0:** (this) ?
+- **sub_AB2010:** (this) ?
+- **sub_AB20A0:** (this) ?
+- **sub_AB20D0:** (this) $0(RakNet::freeList).Clear
+- **sub_AB2130:** (cdecl) ?
+- **sub_AB2170:** (this) ?
+- **sub_AB21F0:** (this) ?
+- **sub_AB2220:** (this) ?
+- **sub_AB2450:** (this) ?
+- **sub_AB24D0:** (this) ?
+- **sub_AB2530:** ?
+- **sub_AB26D0:** (this) ?
+- **sub_AB2790:** (stdcall) ?
+- **sub_AB27A0:** (this) ?
+- **sub_AB27C0:** (this) ?
+- **sub_AB28C0:** (this) ?
+- **sub_AB29E0:** (this) ?
+- **sub_AB2A40:** (this) ?
+- **sub_AB2A60:** (this) ?
+- **sub_AB2A90:** (this) ?
+- **sub_AB2AC0:** (this) ?
+- **sub_AB2AF0:** (this) ?
+- **sub_AB2B10:** (cdecl) ?
+- **sub_AB2B80:** (this) ?
+- **sub_AB2BB0:** (this) ?
+- **sub_AB2BF0:** (this) ?
+- **sub_AB2C30:** (stdcall) ?
+- **sub_AB2C50:** (stdcall) ?
+- **sub_AB2C60:** (this) ?
+- **unknown_libname_65:** (cdecl) ?
+- **sub_AB2CB0:** (this) ?
+- **sub_AB2D00:** (this) ?
+- **sub_AB2D20:** (this) ?
+- **sub_AB2DE0:** (this) ?
+- **sub_AB2E90:** (this) ?
+- **sub_AB2F50:** (this) ?
+- **sub_AB2F70:** (this) ?
+- **sub_AB3030:** (this) ?
+- **sub_AB30E0:** (this) ?
+- **sub_AB31A0:** (this) ?
+- **sub_AB3280:** (this) ?
+- **sub_AB35D0:** (this) ?
+- **sub_AB35F0:** (stdcall) ?
+- **sub_AB3610:** (this) ?
+- **sub_AB36D0:** (this) ?
+- **sub_AB36F0:** (this) ?
+- **sub_AB3710:** (cdecl) ?
+- **sub_AB3BE0:** (stdcall) ?
+- **sub_AB3C10:** (this) ?
+- **sub_AB3C50:** (this) ?
+- **sub_AB3C80:** (this) ?
+- **sub_AB3CC0:** (stdcall) ?
+- **unknown_libname_66:** (cdecl) ?
+- **sub_AB3D80:** (this) ?
+- **sub_AB3DB0:** (this) ?
+- **sub_AB3DE0:** (this) ?
+- **sub_AB3EE0:** (this) ?
+- **sub_AB3F30:** (this) ?
+- **sub_AB3F60:** (this) ?
+- **sub_AB42A0:** (this) ?
+- **sub_AB42E0:** (this) ?
+- **sub_AB56C0:** (this) ?
+- **sub_AB5750:** (this) ?
+- **sub_AB5780:** (this) ?
+- **sub_AB57E0:** (this) ?
+- **sub_AB5800:** (stdcall) ?
+- **sub_AB5920:** (stdcall) ?
+- **sub_AB5970:** (this) ?
+- **sub_AB5A20:** (this) ?
+- **sub_AB5AB0:** (this) ?
+- **sub_AB5B10:** ?
+- **sub_AB5C20:** (this) ?
+- **sub_AB5C60:** (this) ?
+- **sub_AB5D40:** (this) ?
+- **sub_AB5D90:** (this) ?
+- **sub_AB5DE0:** (this) ?
+- **sub_AB5E40:** (this) ?
+- **sub_AB5E80:** (this) ?
+- **sub_AB5EC0:** (this) ?
+- **sub_AB5EE0:** (this) ?
+- **sub_AB5F00:** (this) ?
+- **sub_AB5F30:** (this) ?
+- **sub_AB5F50:** (this) ?
+- **sub_AB5F80:** (this) ?
+- **sub_AB5FD0:** (this) ?
+- **sub_AB6000:** (this) ?
+- **sub_AB6170:** (this) ?
+- **sub_AB6210:** (this) RakNet::DataStructures::Queue<Packet*>::Size
+- **sub_AB6250:** (this) ?
+- **sub_AB62A0:** (this) RakNet::TelnetTransport::destructor
+- **sub_AB6310:** (this) RakNet::TelnetTransport::Start
+- **sub_AB6340:** (this) RakNet::TelnetTransport::Stop
+- **sub_AB63E0:** ?
+- **sub_AB6510:** (this) ?
+- **sub_AB6530:** (this) ?
+- **sub_AB6910:** (this) ?
+- **sub_AB6960:** (this) ?
+- **sub_AB6AC0:** (this) ?
+- **sub_AB6CE0:** (this) RakNet::TelnetTransport::AutoAllocate
+- **sub_AB6D30:** (stdcall) ?
+- **sub_AB6E00:** (this) ?
+- **sub_AB6E30:** (this) ?
+- **sub_AB6E60:** (this) ?
+- **sub_AB6EC0:** (this) ?
+- **sub_AB6FD0:** (this) ?
+- **sub_AB7060:** (this) ?
+- **sub_AB7310:** (this) ?
+- **sub_AB7480:** (this) ?
+- **sub_AB7A90:** (this) ?
+- **sub_AB7AD0:** (this) ?
+- **sub_AB7B10:** (stdcall) ?
+- **sub_AB7BB0:** (this) ?
+- **sub_AB7BD0:** (this) ?
+- **sub_AB7C00:** (this) ?
+- **sub_AB7C20:** (this) ?
+- **unknown_libname_72:** (this) ?
+- **sub_AB7C70:** ?
+- **sub_AB7C90:** (this) ?
+- **sub_AB7CC0:** (this) ?
+- **sub_AB7D20:** (this) ?
+- **sub_AB7D50:** (this) ?
+- **sub_AB7E40:** (this) ?
+- **sub_AB81E0:** (cdecl) ?
+- **sub_AB8220:** (this) ?
+- **sub_AB8250:** (this) ?
+- **sub_AB8280:** (this) ?
+- **sub_AB8300:** (this) ?
+- **sub_AB8350:** (this) ?
+- **sub_AB8380:** (this) ?
+- **sub_AB83B0:** (this) ?
+- **sub_AB83D0:** (this) ?
+- **sub_AB8450:** (this) ?
+- **sub_AB84D0:** (this) ?
+- **sub_AB8540:** (this) ?
+- **sub_AB8580:** (this) ?
+- **sub_AB85A0:** ?
+- **sub_AB85E0:** ?
+- **sub_AB8660:** (this) ?
+- **sub_AB86A0:** (this) ?
+- **sub_AB86E0:** (this) ?
+- **sub_AB8780:** (this) ?
+- **sub_AB8BD0:** (cdecl) ?
+- **sub_AB8C10:** (this) ?
+- **sub_AB8C40:** (this) ?
+- **sub_AB8DB0:** (this) ?
+- **sub_AB8E10:** (this) ?
+- **sub_AB8E80:** ?
+- **sub_AB8EC0:** (this) ?
+- **sub_AB8EF0:** (this) ?
+- **sub_AB8FC0:** (this) ?
+- **sub_AB8FF0:** (this) ?
+- **sub_AB9100:** (this) ?
+- **sub_AB9160:** (this) ?
+- **sub_AB91D0:** (this) ?
+- **sub_AB9240:** (this) ?
+- **sub_AB92A0:** (this) ?
+- **sub_AB92E0:** (this) ?
+- **sub_AB9340:** (this) ?
+- **sub_AB93B0:** (this) ?
+- **sub_AB98A0:** (this) ?
+- **sub_AB98D0:** (this) ?
+- **sub_AB9900:** (stdcall) ?
+- **sub_AB9910:** (this) ?
+- **sub_AB9940:** (this) ?
+- **sub_AB9A10:** (this) ?
+- **sub_AB9AF0:** (cdecl) ?
+- **sub_AB9B10:** (this) ?
+- **sub_AB9B40:** (this) ?
+- **sub_AB9C80:** (this) ?
+- **sub_AB9D30:** (cdecl) ?
+- **sub_AB9D70:** (cdecl) ?
+- **unknown_libname_73:** (stdcall) ?
+- **sub_AB9DD0:** (this) ?
+- **unknown_libname_74:** (this) ?
+- **sub_AB9E10:** (this) ?
+- **sub_AB9E40:** (this) ?
+- **sub_AB9E80:** ?
+- **sub_AB9EC0:** (this) ?
+- **sub_AB9F30:** (stdcall) ?
+- **sub_AB9F50:** (stdcall) ?
+- **sub_AB9F80:** (this) ?
+- **sub_AB9FE0:** (this) ?
+- **sub_ABA010:** (cdecl) ?
+- **sub_ABA050:** (this) ?
+- **sub_ABA0D0:** (this) ?
+- **sub_ABA100:** (cdecl) ?
+- **unknown_libname_75:** (this) ?
+- **sub_ABA160:** (this) ?
+- **sub_ABA230:** (this) ?
+- **sub_ABA4B0:** (this) ?
+- **sub_ABA4D0:** (this) ?
+- **sub_ABA500:** (this) ?
+- **sub_ABA530:** (this) ?
+- **sub_ABA5B0:** (this) ?
+- **sub_ABA5E0:** (this) ?
+- **sub_ABA6B0:** (this) ?
+- **sub_ABA730:** (this) ?
+- **sub_ABA8A0:** (this) ?
+- **sub_ABA8D0:** (this) ?
+- **sub_ABA8F0:** (this) ?
+- **sub_ABA920:** (this) ?
+- **sub_ABA960:** (this) ?
+- **sub_ABA990:** (this) ?
+- **sub_ABA9C0:** (this) ?
+- **sub_ABAA40:** (this) ?
+- **sub_ABAB60:** (this) ?
+- **sub_ABABD0:** (this) ?
+- **sub_ABAC00:** (this) ?
+- **sub_ABAC20:** (this) ?
+- **sub_ABAD10:** (this) ?
+- **sub_ABAD70:** (this) ?
+- **unknown_libname_76:** (stdcall) ?
+- **sub_ABADC0:** (this) ?
+- **sub_ABADF0:** (this) ?
+- **sub_ABAEE0:** (this) ?
+- **sub_ABB000:** (this) ?
+- **sub_ABB030:** (this) ?
+- **sub_ABB050:** (this) ?
+- **sub_ABB080:** (this) ?
+- **sub_ABB170:** (this) ?
+- **sub_ABB290:** (cdecl) ?
+- **sub_ABB2D0:** (cdecl) ?
+- **sub_ABB350:** (this) ?
+- **sub_ABB380:** (this) ?
+- **sub_ABB3F0:** (cdecl) ?
+- **sub_ABB470:** (cdecl) ?
+- **Concurrency::details::GlobalNode::destructor:** (stdcall) ?
+- **Concurrency::details::GlobalNode::destructor:** (stdcall) ?
+- **sub_ABB590:** (this) ?
+- **unknown_libname_77:** ?
+- **sub_ABB5E0:** (this) ?
+- **sub_ABB640:** (this) ?
+- **sub_ABB650:** (this) ?
+- **unknown_libname_78:** (this) ?
+- **sub_ABB690:** (this) ?
+- **unknown_libname_79:** (stdcall) ?
+- **unknown_libname_80:** (stdcall) ?
+- **unknown_libname_81:** (stdcall) ?
+- **unknown_libname_82:** (stdcall) ?
+- **sub_ABB760:** (this) ?
+- **sub_ABB810:** (this) ?
+- **sub_ABB930:** (this) ?
+- **sub_ABB970:** (fastcall) ?
+- **sub_ABBA30:** (this) ?
+- **sub_ABBB20:** (this) ?
+- **sub_ABBB70:** (this) ?
+- **sub_ABBC00:** (this) ?
+- **sub_ABBD90:** (this) ?
+- **sub_ABBE30:** (this) ?
+- **sub_ABBF90:** (this) ?
+- **sub_ABC190:** (this) ?
+- **sub_ABC290:** (this) ?
+- **sub_ABC420:** (this) ?
+- **sub_ABC560:** (stdcall) ?
+- **sub_ABC5E0:** (stdcall) ?
+- **sub_ABC7D0:** (this) ?
+- **sub_ABC9C0:** (this) ?
+- **sub_ABCA10:** (this) ?
+- **sub_ABCA50:** (this) ?
+- **sub_ABCC30:** (this) ?
+- **sub_ABCDA0:** (this) ?
+- **sub_ABCE10:** (this) ?
+- **sub_ABCFF0:** (this) ?
+- **sub_ABD180:** (this) ?
+- **sub_ABD370:** (this) ?
+- **unknown_libname_84:** ?
+- **sub_ABD3B0:** ?
+- **sub_ABD3E0:** ?
+- **sub_ABD420:** (cdecl) ?
+- **sub_ABD460:** (this) ?
+- **sub_ABD490:** (this) ?
+- **sub_ABD4C0:** (this) ?
+- **sub_ABD590:** (this) ?
+- **unknown_libname_85:** (stdcall) ?
+- **sub_ABD630:** (this) ?
+- **sub_ABD6E0:** (this) ?
+- **unknown_libname_86:** (this) ?
+- **sub_ABD760:** (stdcall) ?
+- **sub_ABD780:** (stdcall) ?
+- **sub_ABD7E0:** (stdcall) ?
+- **sub_ABD800:** (this) ?
+- **sub_ABD920:** (this) ?
+- **sub_ABD990:** (this) ?
+- **sub_ABDAA0:** (this) ?
+- **sub_ABDB00:** (this) ?
+- **unknown_libname_87:** (stdcall) ?
+- **sub_ABDB90:** (this) ?
+- **sub_ABDC00:** ?
+- **sub_ABDC60:** (this) ?
+- **sub_ABDD30:** ?
+- **sub_ABDD60:** (this) RakNet::RakString::constructor
+- **unknown_libname_89:** (this) ?
+- **sub_ABDE00:** (this) RakNet::RakString::operator_Equal
+- **sub_ABDE80:** (this) RakNet::RakString::operator_Equal
+- **unknown_libname_90:** (stdcall) \*output=$0
+- **sub_ABDF40:** (stdcall) RakNet::RakString::Realloc
+- **sub_ABE010:** (this) RakNet::RakString::operator_Sum
+- **sub_ABE0B0:** (this) RakNet::RakString::operator_Sum
+- **sub_ABE1B0:** (this) ?
+- **sub_ABE200:** (this) ?
+- **sub_ABE350:** (this) ?
+- **sub_ABE7D0:** (this) RakNet::RakString::IsEmpty
+- **sub_ABE7F0:** (this) RakNet::RakString::GetLength
+- **sub_ABE860:** (this) ?
+- **sub_ABEA00:** (this) ?
+- **sub_ABECD0:** (this) ?
+- **sub_ABED90:** (this) ?
+- **sub_ABF570:** RakNet::RakString::FreeMemoryNoMutex
+- **sub_ABF630:** (cdecl) RakNet::RakString::Serialize
+- **sub_ABF6A0:** (cdecl) ?
+- **sub_ABF770:** (cdecl) ?
+- **unknown_libname_96:** (this) ?
+- **sub_ABF970:** (this) RakNet::RakString::Allocate
+- **sub_ABFAB0:** (this) RakNet::RakString::Assign
+- **sub_ABFB20:** (this) RakNet::RakString::Assign
+- **sub_ABFD70:** (cdecl) RakNet::RakString::ToInteger
+- **sub_ABFE50:** (this) RakNet::RakString::Clone
+- **sub_ABFEC0:** (this) RakNet::RakString::Free
+- **sub_ABFF90:** (stdcall) RakNet::RakString::ToLower
+- **sub_ABFFC0:** (stdcall) RakNet::RakString::ToUpper
+- **Concurrency::details::SchedulerBase::CurrentScheduler:** (cdecl) ?
+- **Concurrency::details::SchedulerBase::CurrentScheduler:** (cdecl) ?
+- **sub_AC0030:** (cdecl) ?
+- **sub_AC0060:** (this) RakNet::RakString::C_String
+- **sub_AC0080:** ?
+- **sub_AC00C0:** (cdecl) ?
+- **sub_AC0100:** (this) ?
+- **sub_AC0130:** (this) ?
+- **sub_AC0160:** ?
+- **unknown_libname_97:** (cdecl) RakNet::RakSleep($0)
+- **sub_AC0180:** (this) ?
+- **sub_AC01B0:** (this) ?
+- **unknown_libname_98:** (this) ?
+- **sub_AC0210:** (this) ?
+- **sub_AC0230:** (this) RakNet::SimpleMutex::Lock
+- **sub_AC0250:** (this) RakNet::SimpleMutex::Unlock
+- **sub_AC0270:** (this) ?
+- **Replicator::Replicator:** (this) ?
+- **unknown_libname_99:** (this) ?
+- **sub_AC02C0:** (this) ?
+- **sub_AC02E0:** (this) ?
+- **Concurrency::details::UMSBackgroundPoller::~UMSBackgroundPoller:** (this) ?
+- **sub_AC0330:** (this) ?
+- **sub_AC0370:** ?
+- **sub_AC03B0:** ?
+- **sub_AC03F0:** (cdecl) ?
+- **unknown_libname_102:** (this) ?
+- **sub_AC0430:** (this) ?
+- **sub_AC04A0:** ?
+- **sub_AC04D0:** ?
+- **sub_AC0700:** (this) ?
+- **sub_AC0730:** (this) ?
+- **sub_AC07B0:** ?
+- **sub_AC07F0:** (cdecl) ?
+- **sub_AC0830:** (this) ?
+- **sub_AC0860:** (this) ?
+- **sub_AC0890:** (this) ?
+- **sub_AC08B0:** (this) ?
+- **sub_AC09A0:** (this) ?
+- **sub_AC0AC0:** ?
+- **sub_AC0AF0:** ?
+- **sub_AC0B30:** ?
+- **sub_AC0B40:** (this) ?
+- **sub_AC0CA0:** (this) ?
+- **sub_AC0D00:** (this) ?
+- **sub_AC0E00:** (this) RakNet::StringCompressor::DecodeString
+- **sub_AC0EE0:** (this) RakNet::StringCompressor::DecodeString
+- **sub_AC0FB0:** ?
+- **sub_AC0FE0:** (cdecl) ?
+- **sub_AC1010:** (this) ?
+- **sub_AC1030:** (this) ?
+- **sub_AC1050:** (this) ?
+- **sub_AC10C0:** (cdecl) ?
+- **sub_AC10E0:** (this) ?
+- **sub_AC11B0:** (this) ?
+- **sub_AC1210:** (stdcall) ?
+- **unknown_libname_104:** (this) ?
+- **sub_AC1250:** ?
+- **sub_AC1290:** (cdecl) ?
+- **sub_AC12D0:** (this) ?
+- **unknown_libname_105:** (stdcall) ?
+- **sub_AC1330:** (this) ?
+- **sub_AC1360:** (this) ?
+- **sub_AC1390:** (this) ?
+- **unknown_libname_106:** (stdcall) ?
+- **sub_AC1430:** (this) ?
+- **sub_AC1460:** (this) ?
+- **sub_AC1550:** (this) ?
+- **unknown_libname_107:** (stdcall) ?
+- **sub_AC16A0:** (cdecl) ?
+- **sub_AC1710:** (this) ?
+- **unknown_libname_108:** (this) ?
+- **sub_AC17C0:** (this) ?
+- **sub_AC1900:** (this) ?
+- **sub_AC1CB0:** (this) ?
+- **sub_AC1D40:** (this) ?
+- **sub_AC1E60:** (this) ?
+- **unknown_libname_111:** (this) ?
+- **sub_AC1EB0:** (this) ?
+- **sub_AC1F10:** (this) ?
+- **unknown_libname_112:** (this) ?
+- **sub_AC20A0:** (this) ?
+- **sub_AC20C0:** (this) ?
+- **sub_AC2140:** (this) ?
+- **sub_AC21C0:** (this) ?
+- **sub_AC2230:** (this) ?
+- **sub_AC2320:** (this) ?
+- **sub_AC2490:** (this) ?
+- **sub_AC2510:** (this) ?
+- **sub_AC2540:** (cdecl) ?
+- **sub_AC25A0:** (cdecl) ?
+- **sub_AC25E0:** ?
+- **sub_AC2620:** (cdecl) ?
+- **sub_AC2650:** (cdecl) ?
+- **sub_AC26C0:** (cdecl) ?
+- **sub_AC2880:** (cdecl) ?
+- **sub_AC2910:** (cdecl) ?
+- **sub_AC2990:** (cdecl) ?
+- **sub_AC29D0:** (this) ?
+- **unknown_libname_113:** (this) ?
+- **sub_AC2A00:** (this) ?
+- **sub_AC2A60:** (this) ?
+- **unknown_libname_114:** ?
+- **unknown_libname_115:** (this) ?
+- **sub_AC2B60:** (this) ?
+- **sub_AC2B90:** (this) ?
+- **sub_AC2BC0:** (this) ?
+- **sub_AC2BE0:** (this) ?
+- **sub_AC2C30:** (this) ?
+- **sub_AC2CB0:** (this) ?
+- **sub_AC2CE0:** (this) ?
+- **sub_AC2D00:** (this) ?
+- **sub_AC2D20:** (this) ?
+- **sub_AC2E00:** (cdecl) RakNet::SplitPacketChannelComp
+- **sub_AC2F60:** (this) ?
+- **sub_AC3190:** (this) ?
+- **sub_AC32D0:** (this) ?
+- **sub_AC3350:** (this) ?
+- **sub_AC3390:** (this) ?
+- **sub_AC33C0:** (this) ?
+- **sub_AC33E0:** (this) ?
+- **sub_AC3730:** (this) ?
+- **unknown_libname_116:** (this) ?
+- **sub_AC3780:** (this) ?
+- **sub_AC3CD0:** (this) ?
+- **sub_AC5460:** (this) ?
+- **sub_AC54D0:** (this) ?
+- **sub_AC57C0:** (this) ?
+- **sub_AC6AA0:** (this) ?
+- **sub_AC6B60:** (this) ?
+- **sub_AC6BA0:** (this) ?
+- **ios::delbuf:** (this) ?
+- **sub_AC6C00:** (this) ?
+- **sub_AC6C60:** (this) ?
+- **sub_AC6ED0:** (this) ?
+- **sub_AC6F10:** ?
+- **sub_AC6F40:** (stdcall) ?
+- **sub_AC7000:** (stdcall) ?
+- **sub_AC71A0:** (this) ?
+- **sub_AC7420:** (stdcall) ?
+- **sub_AC76A0:** (stdcall) ?
+- **sub_AC7800:** (this) ?
+- **sub_AC7B70:** (this) ?
+- **sub_AC7E80:** (this) RakNet::ReliabilityLayer::BuildPacketFromSplitPacketList
+- **sub_AC8030:** (this) RakNet::ReliabilityLayer::BuildPacketFromSplitPacketList
+- **sub_AC80F0:** (this) RakNet::ReliabilityLayer::CreateInternalPacketCopy
+- **sub_AC81D0:** (this) RakNet::ReliabilityLayer::GetOrderingListAtOrderingStream
+- **sub_AC8210:** (this) ?
+- **sub_AC8300:** (this) ?
+- **sub_AC8320:** (this) ?
+- **sub_AC8340:** (this) ?
+- **sub_AC8380:** (this) ?
+- **sub_AC8670:** (this) ?
+- **sub_AC86A0:** (this) ?
+- **sub_AC8770:** (this) ?
+- **sub_AC87A0:** (this) RakNet::ReliabilityLayer::ResetPacketsAndDatagrams
+- **sub_AC8840:** (this) ?
+- **sub_AC8910:** (this) ?
+- **sub_AC8A30:** (this) ?
+- **sub_AC8BF0:** (this) ?
+- **sub_AC8CA0:** (this) ?
+- **sub_AC8D50:** (this) ?
+- **sub_AC8D80:** (this) ?
+- **sub_AC8DA0:** (this) RakNet::ReliabilityLayer::SendACKs
+- **sub_AC8ED0:** (this) RakNet::ReliabilityLayer::AllocateFromInternalPacketPool
+- **sub_AC8F50:** (this) RakNet::ReliabilityLayer::ReleaseToInternalPacketPool
+- **sub_AC8F80:** (this) ?
+- **sub_AC9010:** (this) ?
+- **unknown_libname_119:** (this) ?
+- **sub_AC90B0:** (this) ?
+- **sub_AC90F0:** (this) ?
+- **sub_AC9190:** (this) ?
+- **sub_AC9220:** (this) ?
+- **sub_AC92A0:** (this) ?
+- **sub_AC9350:** (this) ?
+- **sub_AC93A0:** (this) ?
+- **sub_AC9420:** (stdcall) ?
+- **sub_AC9440:** (stdcall) RakNet::ReliabilityLayer::AllocInternalPacketData
+- **sub_AC9480:** (this) RakNet::ReliabilityLayer::FreeInternalPacketData
+- **sub_AC9550:** (this) ?
+- **sub_AC95B0:** (this) ?
+- **sub_AC95D0:** (this) ?
+- **sub_AC9620:** (this) ?
+- **sub_AC9740:** (this) ?
+- **sub_AC9790:** (this) ?
+- **sub_AC97C0:** (this) ?
+- **unknown_libname_120:** (stdcall) ?
+- **sub_AC9820:** (this) ?
+- **sub_AC9840:** (this) ?
+- **sub_AC9860:** (this) ?
+- **sub_AC9890:** (this) ?
+- **sub_AC98C0:** (this) ?
+- **sub_AC98F0:** (this) ?
+- **sub_AC9920:** (this) ?
+- **sub_AC9A00:** (this) ?
+- **unknown_libname_121:** ?
+- **unknown_libname_122:** (this) ?
+- **unknown_libname_123:** (this) ?
+- **sub_AC9B40:** ?
+- **sub_AC9B50:** (this) ?
+- **sub_AC9C40:** (this) ?
+- **sub_AC9C70:** (this) ?
+- **sub_AC9CA0:** (this) ?
+- **sub_AC9CC0:** (this) ?
+- **sub_AC9DB0:** (this) ?
+- **Concurrency::details::TaskStack::ResetOverflow:** (this) ?
+- **sub_AC9E50:** (this) ?
+- **sub_AC9E70:** (this) ?
+- **sub_AC9F40:** (this) ?
+- **sub_AC9F70:** (this) $0(RakNet::freeList)::RemoveAtIndex
+- **sub_AC9FD0:** (this) ?
+- **sub_ACA000:** (this) ?
+- **sub_ACA1A0:** (this) ?
+- **sub_ACA200:** (this) ?
+- **sub_ACA2E0:** (this) ?
+- **sub_ACA300:** (this) ?
+- **sub_ACA360:** (this) ?
+- **sub_ACA390:** (this) ?
+- **sub_ACA4A0:** (this) ?
+- **sub_ACA4D0:** (this) ?
+- **sub_ACA530:** (this) ?
+- **sub_ACA560:** (this) ?
+- **sub_ACA6C0:** (this) ?
+- **sub_ACA740:** (this) ?
+- **sub_ACA760:** (this) ?
+- **sub_ACA780:** (this) ?
+- **sub_ACA900:** (this) ?
+- **sub_ACAAD0:** (this) ?
+- **unknown_libname_124:** (this) ?
+- **sub_ACAB10:** (this) ?
+- **sub_ACAC10:** (this) ?
+- **sub_ACAD60:** (this) ?
+- **sub_ACB010:** (this) ?
+- **sub_ACB030:** (this) ?
+- **std::ios_base::iword:** (this) ?
+- **sub_ACB070:** (this) ?
+- **sub_ACB0A0:** (this) ?
+- **unknown_libname_125:** (stdcall) splitPacketChannelList[$0]
+- **unknown_libname_126:** (stdcall) splitPacketChannelList.RemoveAtIndex($0)
+- **sub_ACB1B0:** (this) ?
+- **sub_ACB1E0:** (this) ?
+- **sub_ACB340:** (this) ?
+- **sub_ACB390:** (this) ?
+- **sub_ACB3B0:** (this) ?
+- **unknown_libname_127:** (this) $0(RakNet::BitStream)::GetData
+- **sub_ACB430:** (this) ?
+- **sub_ACB510:** (this) ?
+- **sub_ACB570:** (this) ?
+- **sub_ACB5A0:** (this) ?
+- **sub_ACB5D0:** (this) ?
+- **sub_ACB690:** (this) ?
+- **sub_ACB6C0:** (this) ?
+- **sub_ACB6F0:** (this) ?
+- **sub_ACB720:** (this) ?
+- **unknown_libname_128:** (this) ?
+- **sub_ACB810:** (this) ?
+- **sub_ACB860:** (cdecl) ?
+- **sub_ACB8A0:** (this) ?
+- **sub_ACB8C0:** (this) ?
+- **sub_ACBD80:** (this) ?
+- **sub_ACBDD0:** (this) ?
+- **sub_ACBDF0:** (this) ?
+- **sub_ACC050:** (this) ?
+- **sub_ACC070:** (this) ?
+- **sub_ACC190:** (this) ?
+- **sub_ACC1B0:** (cdecl) ?
+- **sub_ACC1F0:** (this) ?
+- **sub_ACC360:** (this) ?
+- **sub_ACC390:** (this) ?
+- **sub_ACC3C0:** (this) ?
+- **sub_ACC3E0:** (cdecl) ?
+- **sub_ACC420:** ?
+- **sub_ACC460:** ?
+- **sub_ACC4A0:** (this) ?
+- **sub_ACC4D0:** (this) ?
+- **sub_ACC500:** (this) ?
+- **sub_ACC530:** (this) ?
+- **sub_ACC550:** (this) ?
+- **unknown_libname_129:** (this) ?
+- **sub_ACC590:** (this) ?
+- **sub_ACC5D0:** (this) ?
+- **sub_ACC600:** (cdecl) ?
+- **sub_ACC640:** (cdecl) ?
+- **sub_ACC6C0:** (cdecl) ?
+- **unknown_libname_130:** (this) ?
+- **sub_ACC740:** (this) ?
+- **sub_ACC760:** (this) ?
+- **sub_ACC860:** (stdcall) ?
+- **sub_ACC880:** (stdcall) ?
+- **sub_ACC8A0:** (stdcall) ?
+- **sub_ACC8C0:** (this) ?
+- **sub_ACC950:** (this) ?
+- **sub_ACC980:** (this) ?
+- **sub_ACC9A0:** (this) ?
+- **unknown_libname_131:** (this) $0(RakNet::freeList)::Size
+- **sub_ACCAD0:** (this) ?
+- **sub_ACCB00:** (this) ?
+- **sub_ACCC10:** (cdecl) ?
+- **sub_ACCC40:** (this) ?
+- **sub_ACCD20:** (this) ?
+- **sub_ACCD50:** (this) ?
+- **unknown_libname_132:** (stdcall) ?
+- **sub_ACCDF0:** (this) ?
+- **sub_ACCE20:** (this) ?
+- **unknown_libname_133:** (stdcall) ?
+- **sub_ACCE70:** (this) ?
+- **sub_ACCEA0:** (this) ?
+- **sub_ACCF80:** (this) ?
+- **unknown_libname_134:** (this) ?
+- **sub_ACCFC0:** (this) ?
+- **sub_ACD030:** (cdecl) ?
+- **sub_ACD0A0:** (this) ?
+- **sub_ACD0C0:** (this) ?
+- **sub_ACD0F0:** (this) ?
+- **sub_ACD1E0:** (this) ?
+- **sub_ACD300:** (this) ?
+- **sub_ACD370:** (this) ?
+- **sub_ACD3D0:** (this) ?
+- **sub_ACD470:** (cdecl) ?
+- **sub_ACD4B0:** (cdecl) ?
+- **sub_ACD530:** (this) ?
+- **sub_ACD5A0:** (this) ?
+- **sub_ACD5D0:** (this) ?
+- **sub_ACD600:** (this) ?
+- **sub_ACD630:** (this) ?
+- **sub_ACD650:** (this) ?
+- **sub_ACD690:** (this) ?
+- **sub_ACD730:** (this) ?
+- **sub_ACD830:** (this) ?
+- **sub_ACD870:** (this) ?
+- **sub_ACD920:** (this) ?
+- **sub_ACD940:** (this) ?
+- **unknown_libname_135:** (this) ?
+- **sub_ACD990:** (this) ?
+- **sub_ACD9C0:** (this) ?
+- **sub_ACD9E0:** (this) ?
+- **sub_ACDA10:** (this) ?
+- **sub_ACDA40:** (this) ?
+- **sub_ACDA80:** (this) ?
+- **sub_ACDAB0:** (this) ?
+- **sub_ACDAE0:** (this) ?
+- **sub_ACDB10:** (this) ?
+- **sub_ACDC30:** (this) ?
+- **sub_ACDD80:** (this) ?
+- **sub_ACDDB0:** (cdecl) ?
+- **sub_ACDDF0:** (this) ?
+- **unknown_libname_136:** (this) ?
+- **unknown_libname_137:** (cdecl) ?
+- **sub_ACDE60:** (this) ?
+- **sub_ACDF50:** (this) ?
+- **sub_ACE2A0:** (this) ?
+- **sub_ACE380:** (this) ?
+- **sub_ACE420:** (this) ?
+- **sub_ACE510:** (stdcall) ?
+- **sub_ACE5B0:** (this) ?
+- **sub_ACE5E0:** (this) ?
+- **sub_ACE610:** (this) ?
+- **sub_ACE790:** (this) ?
+- **sub_ACE900:** (this) ?
+- **sub_ACE930:** (this) ?
+- **sub_ACE950:** (this) ?
+- **unknown_libname_138:** (this) ?
+- **sub_ACE990:** (this) ?
+- **sub_ACE9D0:** ?
+- **sub_ACE9F0:** (this) ?
+- **sub_ACEAD0:** (this) ?
+- **Concurrency::details::UMSFreeVirtualProcessorRoot::~UMSFreeVirtualProcessorRoot:** (this) ?
+- **sub_ACEBA0:** (cdecl) ?
+- **sub_ACEBC0:** (stdcall) ?
+- **Concurrency::details::SchedulingRing::SetOwningNode:** (this) ?
+- **sub_ACEE00:** (this) ?
+- **sub_ACEEB0:** (cdecl) ?
+- **sub_ACF070:** (cdecl) ?
+- **sub_ACF160:** (this) ?
+- **sub_ACF180:** (this) ?
+- **sub_ACF1A0:** (this) ?
+- **sub_ACF200:** (this) ?
+- **sub_AD1550:** (this) ?
+- **sub_AD1810:** (this) ?
+- **sub_AD1AD0:** (this) ?
+- **sub_AD1AF0:** (this) ?
+- **sub_AD1B20:** (this) ?
+- **unknown_libname_139:** (this) ?
+- **sub_AD1B50:** (this) ?
+- **sub_AD1B70:** (this) ?
+- **sub_AD1BD0:** (this) ?
+- **sub_AD1BF0:** (this) ?
+- **sub_AD1DF0:** (this) ?
+- **unknown_libname_140:** (this) ?
+- **sub_AD1FD0:** (this) ?
+- **unknown_libname_141:** (this) $0(RakNet::BitStream)::GetReadOffset
+- **sub_AD2030:** (cdecl) ?
+- **sub_AD2050:** (this) ?
+- **sub_AD2080:** (this) ?
+- **sub_AD20A0:** (cdecl) ?
+- **sub_AD21E0:** (this) ?
+- **sub_AD22D0:** (this) ?
+- **sub_AD2320:** (this) ?
+- **sub_AD2390:** (stdcall) ?
+- **sub_AD23A0:** (stdcall) ?
+- **sub_AD23B0:** (stdcall) ?
+- **sub_AD2410:** (stdcall) ?
+- **sub_AD2450:** (stdcall) ?
+- **sub_AD2480:** (stdcall) ?
+- **sub_AD24C0:** (stdcall) ?
+- **sub_AD2520:** (stdcall) ?
+- **sub_AD2560:** (this) ?
+- **sub_AD2590:** (this) ?
+- **sub_AD25C0:** (this) ?
+- **sub_AD2690:** (this) ?
+- **sub_AD2710:** (this) ?
+- **sub_AD2740:** (this) ?
+- **sub_AD2840:** (this) ?
+- **sub_AD2980:** (cdecl) ?
+- **sub_AD2A30:** (this) ?
+- **sub_AD2B30:** (this) ?
+- **sub_AD2B90:** (this) ?
+- **sub_AD2D90:** (this) ?
+- **unknown_libname_145:** (this) ?
+- **sub_AD2DF0:** (this) ?
+- **sub_AD2F20:** (this) ?
+- **sub_AD2F50:** (this) ?
+- **sub_AD2F90:** (this) ?
+- **sub_AD2FD0:** (this) ?
+- **sub_AD31C0:** (this) ?
+- **sub_AD34F0:** (this) ?
+- **sub_AD3610:** (this) ?
+- **sub_AD3640:** (this) ?
+- **sub_AD3670:** ?
+- **sub_AD3690:** ?
+- **sub_AD36D0:** (this) ?
+- **sub_AD3750:** (this) ?
+- **sub_AD37D0:** (this) ?
+- **sub_AD3800:** (this) ?
+- **sub_AD3830:** (this) ?
+- **sub_AD3870:** (this) ?
+- **sub_AD38B0:** (stdcall) ?
+- **sub_AD3940:** (cdecl) ?
+- **sub_AD3A50:** (this) ?
+- **sub_AD3B50:** (this) ?
+- **sub_AD3C40:** (this) ?
+- **sub_AD3D90:** (this) RakNet::TCPInterface::Stop
+- **sub_AD4340:** (this) ?
+- **sub_AD4370:** (this) ?
+- **sub_AD4580:** (this) ?
+- **sub_AD4600:** (this) ?
+- **sub_AD4760:** (this) ?
+- **sub_AD47F0:** (stdcall) ?
+- **sub_AD4880:** (this) ?
+- **sub_AD48D0:** (this) ?
+- **sub_AD4950:** (this) ?
+- **sub_AD49D0:** (this) ?
+- **sub_AD4A60:** (this) ?
+- **sub_AD4D40:** (this) ?
+- **sub_AD4EA0:** (stdcall) ?
+- **sub_AD5000:** (stdcall) ?
+- **sub_AD5B40:** (fastcall) ?
+- **sub_AD5BA0:** (this) ?
+- **sub_AD5CB0:** (this) ?
+- **sub_AD5CE0:** (this) ?
+- **sub_AD5D10:** (this) ?
+- **sub_AD5D40:** (this) ?
+- **sub_AD5D80:** (this) ?
+- **sub_AD5DC0:** (this) ?
+- **sub_AD5E00:** (this) ?
+- **sub_AD5E40:** (this) ?
+- **sub_AD5E80:** (this) ?
+- **sub_AD5EC0:** (this) ?
+- **sub_AD5F30:** (this) ?
+- **sub_AD5F70:** (this) RakNet::DataStructures::ThreadsafeAllocatingQueue\<Packet\>::Clear
+- **sub_AD6030:** (this) ?
+- **sub_AD6060:** (this) ?
+- **sub_AD6080:** (this) ?
+- **sub_AD60C0:** (this) ?
+- **sub_AD60F0:** (this) ?
+- **sub_AD6130:** (this) ?
+- **sub_AD61A0:** (this) ?
+- **sub_AD6210:** (this) ?
+- **sub_AD6250:** (this) RakNet::DataStructures::ThreadsafeAllocatingQueue\<SystemAddress\>::Clear
+- **sub_AD6310:** (this) ?
+- **sub_AD6330:** (this) ?
+- **sub_AD6360:** (this) RakNet::DataStructures::ThreadsafeAllocatingQueue\<RemoteClient*\>::Clear
+- **sub_AD6420:** (this) ?
+- **sub_AD6460:** (cdecl) RakNet::OP_DELETE_ARRAY
+- **sub_AD64A0:** (cdecl) ?
+- **sub_AD6520:** (this) ?
+- **sub_AD6570:** ?
+- **sub_AD65B0:** ?
+- **sub_AD65F0:** (this) ?
+- **sub_AD6660:** (this) ?
+- **sub_AD6680:** (this) ?
+- **sub_AD66B0:** (this) ?
+- **sub_AD6830:** (this) ?
+- **sub_AD6A00:** (this) ?
+- **sub_AD6A50:** (this) RakNet::DataStructures::Queue\<SystemAddress\>::Clear
+- **sub_AD6AB0:** (this) ?
+- **sub_AD6AD0:** (this) ?
+- **sub_AD6BD0:** (this) ?
+- **unknown_libname_146:** (this) ?
+- **sub_AD6C40:** (this) ?
+- **sub_AD6D10:** (this) ?
+- **sub_AD6D70:** (this) ?
+- **unknown_libname_147:** (this) ?
+- **unknown_libname_148:** (this) ?
+- **sub_AD70B0:** (cdecl) ?
+- **sub_AD7140:** (cdecl) ?
+- **sub_AD71C0:** (cdecl) ?
+- **sub_AD7220:** (cdecl) ?
+- **sub_AD7240:** (cdecl) ?
+- **sub_AD7270:** (cdecl) ?
+- **sub_AD72D0:** (cdecl) ?
+- **sub_AD7330:** (cdecl) ?
+- **sub_AD7360:** (cdecl) ?
+- **sub_AD7570:** (cdecl) ?
+- **sub_AD75B0:** (cdecl) ?
+- **sub_AD7630:** (cdecl) ?
+- **sub_AD76B0:** (cdecl) ?
+- **sub_AD77A0:** (cdecl) ?
+- **sub_AD7890:** (cdecl) ?
+- **sub_AD7910:** (cdecl) ?
+- **sub_AD7A00:** (cdecl) ?
+- **sub_AD7AF0:** (cdecl) ?
+- **sub_AD7B70:** (cdecl) ?
+- **sub_AD7CE0:** (cdecl) ?
+- **sub_AD7DA0:** (cdecl) ?
+- **sub_AD7E30:** (cdecl) ?
+- **sub_AD7EC0:** (cdecl) ?
+- **sub_AD7F10:** (cdecl) ?
+- **sub_AD7F90:** (cdecl) ?
+- **sub_AD7FF0:** (cdecl) ?
+- **sub_AD8140:** (cdecl) ?
+- **sub_AD83B0:** (cdecl) ?
+- **sub_AD84C0:** (cdecl) ?
+- **sub_AD8560:** (cdecl) ?
+- **sub_AD8600:** (cdecl) ?
+- **sub_AD8BD0:** (cdecl) ?
+- **sub_AD8F80:** (cdecl) ?
+- **sub_AD95D0:** (cdecl) ?
+- **sub_AD9720:** (cdecl) ?
+- **sub_AD9880:** (cdecl) ?
+- **sub_AD9E10:** (cdecl) ?
+- **sub_AD9E30:** (cdecl) ?
+- **sub_AD9F80:** (cdecl) ?
+- **sub_ADA020:** (cdecl) ?
+- **sub_ADA0D0:** (cdecl) ?
+- **sub_ADA1E0:** (cdecl) ?
+- **sub_ADA5C0:** (cdecl) ?
+- **sub_ADA6D0:** (cdecl) ?
+- **sub_ADA7F0:** (cdecl) ?
+- **sub_ADAA30:** (cdecl) ?
+- **sub_ADAA90:** (cdecl) ?
+- **sub_ADAAC0:** (this) ?
+- **unknown_libname_150:** (this) ?
+- **sub_ADAB00:** (this) ?
+- **sub_ADABB0:** (stdcall) ?
+- **sub_ADABC0:** (stdcall) ?
+- **sub_ADABD0:** (this) ?
+- **sub_ADAC30:** (this) ?
+- **sub_ADACB0:** (this) ?
+- **sub_ADACD0:** (this) ?
+- **sub_ADAD10:** (stdcall) ?
+- **sub_ADAD20:** (stdcall) ?
+- **sub_ADAD30:** (this) ?
+- **sub_ADAE60:** (this) ?
+- **sub_ADAF20:** (this) ?
+- **sub_ADAF40:** (this) ?
+- **sub_ADB090:** (stdcall) ?
+- **sub_ADB0B0:** (this) ?
+- **sub_ADB0E0:** (this) ?
+- **unknown_libname_151:** (this) ?
+- **sub_ADB1F0:** (cdecl) ?
+- **sub_ADB280:** (cdecl) ?
+- **unknown_libname_152:** (this) ?
+- **sub_ADB320:** (this) ?
+- **sub_ADB360:** (this) ?
+- **sub_ADB3B0:** (this) ?
+- **sub_ADB460:** (this) ?
+- **sub_ADB620:** (this) ?
+- **sub_ADB690:** (this) ?
+- **sub_ADB830:** (this) ?
+- **sub_ADC020:** (this) ?
+- **sub_ADC2B0:** (this) ?
+- **sub_ADC350:** (this) ?
+- **sub_ADC3A0:** (this) ?
+- **sub_ADC590:** (this) ?
+- **sub_ADC5C0:** (this) ?
+- **sub_ADC5F0:** (this) ?
+- **sub_ADC610:** (this) ?
+- **sub_ADC670:** (cdecl) ?
+- **sub_ADC690:** (this) ?
+- **std::ios_base::iword:** (this) ?
+- **sub_ADC710:** (this) ?
+- **sub_ADC770:** (this) ?
+- **sub_ADC790:** (this) ?
+- **sub_ADC7C0:** (cdecl) ?
+- **sub_ADC800:** ?
+- **sub_ADC840:** (this) ?
+- **sub_ADC870:** (this) ?
+- **sub_ADC8A0:** (this) ?
+- **sub_ADC8D0:** (this) ?
+- **unknown_libname_153:** (stdcall) ?
+- **unknown_libname_154:** (stdcall) ?
+- **sub_ADC990:** (this) ?
+- **sub_ADC9C0:** (this) ?
+- **sub_ADCAB0:** (this) ?
+- **sub_ADCBD0:** (this) ?
+- **unknown_libname_155:** (this) ?
+- **sub_ADCC60:** (cdecl) ?
+- **sub_ADCCB0:** (cdecl) ?
+- **sub_ADCD30:** (cdecl) ?
+- **sub_ADCDF0:** (cdecl) ?
+- **sub_ADCFB0:** (cdecl) ?
+- **sub_ADD030:** (cdecl) ?
+- **sub_ADD370:** (cdecl) ?
+- **sub_ADD3B0:** (cdecl) ?
+- **sub_ADD7F0:** (cdecl) ?
+- **sub_ADDB50:** (cdecl) ?
+- **sub_ADDF50:** (cdecl) ?
+- **sub_ADE030:** (cdecl) ?
+- **sub_ADE180:** (cdecl) ?
+- **sub_ADE220:** (cdecl) ?
+- **sub_ADE590:** (cdecl) ?
+- **sub_ADEAA0:** (this) ?
+- **sub_ADEB00:** (this) ?
+- **sub_ADEB40:** (this) RakNet::ByteQueue::constructor
+- **sub_ADEB80:** (this) RakNet::ByteQueue::destructor
+- **sub_ADEBA0:** (this) RakNet::ByteQueue::WriteBytes
+- **sub_ADED70:** (this) RakNet::ByteQueue::ReadBytes
+- **sub_ADEE70:** (this) RakNet::ByteQueue::PeekContiguousBytes
+- **sub_ADEEC0:** (this) RakNet::ByteQueue::Clear
+- **sub_ADEF20:** (this) RakNet::ByteQueue::GetBytesWritten
+- **sub_ADEF60:** (this) RakNet::ByteQueue::IncrementReadOffset
+- **sub_ADEF90:** (this) RakNet::ByteQueue::DecrementReadOffset
+- **off_118B7A8:** RakNet::rakMalloc_Ex
+- **off_118B7AC:** RakNet::rakRealloc_Ex
+- **off_118B7B0:** RakNet::rakFree_Ex
+- **off_118B7B4:** RakNet::RakMemoryOverride::notifyOutOfMemory
+- **unk_15C5578:** UNASSIGNED_RAKNET_GUID
+- **unk_15C8754:** RakNet::freeList
+
+### ?
+- **sub_FA4870:** ? (USES sub_A96E10)
+- **sub_FA48C0:** ? (USES sub_A96E10)
+- **sub_FA4910:** ? (USES sub_A96E10)
+- **sub_FA4960:** ? (USES sub_A96E10)
+- **sub_FA49B0:** ? (USES sub_A96E10)
+- **sub_FA4A00:** ? (USES sub_A96E10)
+- **sub_FA4A50:** ? (USES sub_A96E10)
+- **sub_FA4A70:** ? (USES sub_A97590)
+- **sub_FA4A90:** ? (USES sub_A975C0)
+- **sub_FA4AB0:** ? (USES sub_A96E10)
+- **sub_FA4AD0:** ? (USES sub_A97590)
+- **sub_FA4AF0:** ? (USES sub_A975C0)
+- **sub_FA4B10:** ? (USES sub_A96E10)
+- **sub_FA4B30:** ? (USES sub_A97590)
+- **sub_FA4B50:** ? (USES sub_A975C0)
+- **sub_FA4B70:** ? (USES sub_A96E10)
+- **sub_FA4B90:** ? (USES sub_A97590)
+- **sub_FA4BB0:** ? (USES sub_A975C0)
+- **sub_FA4BD0:** ? (USES sub_A96E10)
+- **sub_FA4BF0:** ? (USES sub_A97590)
+- **sub_FA4C10:** ? (USES sub_A975C0)
+- **sub_FA4C30:** ? (USES sub_A96E10)
+- **sub_FA4C50:** ? (USES sub_A97590)
+- **sub_FA4C70:** ? (USES sub_A975C0)
+- **sub_FA4C90:** ? (USES sub_AC29D0)
+- **sub_FA4CB0:** ? (USES sub_A96E10)
+- **sub_FA4CD0:** ? (USES sub_A97590)
+- **many more**
+- **sub_FC3FF0:** ? (USES sub_AC0130)
+- **sub_FC4000:** ? (USES sub_AC0160)
+- **sub_FC4010:** ? (USES sub_AC0210)
+
+## Structures
+
+### InternalPacket
+- this+20: this->dataBitLength
+- this+40: this->creationTime
+- this+60: this->data
+
+### Packet
+- this+8: this->data
+
+### SplitPacketChannel
+- this+8: this->splitPacketList
+
+## Macros
+- #define \_WIN32
+- #define MAX_ALLOCA_STACK_ALLOCATION = 0x100000
+- #define OPEN_SSL_CLIENT_SUPPORT = 0
+- #define PREALLOCATE_LARGE_MESSAGES = 0
+- #define RAKNET_SUPPORT_IPV6 = 0
+- #define UNRELIABLE_WITH_ACK_RECEIPT = 5
+- #define USE_ALLOCA = 1
+- #undef WINDOWS_STORE_RT
+- #undef \_\_native_client\_\_
